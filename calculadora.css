@@ -1,0 +1,58 @@
+
+body{
+    background-attachment: fixed;
+    background-color: #eeeeee;
+}
+.top{
+    position: relative;
+    width: 95%;
+    height: 48px;
+    padding:8px;
+    background: #8a55d3;
+}
+.container{
+    position: relative;
+    margin: 100 auto;
+    width: 313px;
+    height: auto;
+    padding: 10px;
+    background: rgb(121, 117, 117);
+    border: 1px solid #867f7f;
+    box-shadow: 4px 4px 4px #909090;
+}
+.body{
+    margin-top: 10px;
+    width: 95%;
+    height: auto;
+    padding: 9px;
+    background: #686262;
+}
+.campo{
+   margin: auto;
+    width: 100%;
+    height: 15%;
+    border: none;
+    opacity: 0.5;
+    color:#800080;
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+}
+.btn{
+    margin-top: 4px;
+    width: 56px;
+    height: 50px;
+    background: #5d555f;
+    color: #ffff;
+    border: none;
+    font-size: 20px;
+    
+}
+.zero{
+    width: 116px;
+}
+.igual{
+    margin: 4px;
+    position: absolute;
+    height: 104px;
+}

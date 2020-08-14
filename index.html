@@ -5,57 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
 </head>
 
 <body>
-    <header>Calculadora de testes</header>
-    <table id="numbers">
-        <input type="text">
-        <tr >
-            <td>
-                <input type="button" id="btt_7" value="7">
-            </td>
-            <td>
-                <input type="button" id="btt_8" value="8">
-            </td>
-            <td>
-                <input type="button" id="btt_9" value="9">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="button" id="btt_4" value="4">
-            </td>
-            <td>
-                <input type="button" id="btt_5" value="5">
-            </td>
-            <td>
-                <input type="button" id="btt_6" value="6">
-            </td>
-        <tr>
-            <td>
-                <input type="button" id="btt_1" value="1">
-            </td>
-            <td>
-                <input type="button" id="btt_2" value="2">
-            </td>
-            <td>
-                <input type="button" id="btt_3" value="3">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="button" id="btt_c" value="C">
-            </td>
-            <td>
-                <input type="button" id="btt_0" value="0">
-            </td>
-            <td>
-                <input type="button" id="btt_x" value="X">
-            </td>
+    <div class="container">
+        <header class="top">
+            <form class="form">
+                <input type="text" id="result" class="campo">
+            </form>
+        </header>
 
-        </tr>
-    </table>
+        <section class="body">
+
+            <input type="button" class="btn" id="btt" value="7">
+
+            <input type="button" class="btn" id="btt" value="8">
+
+            <input type="button" class="btn" id="btt" value="9">
+
+            <input type="button" class="btn" id="btt" value="+">
+
+            <input type="button" class="btn" id="btt" value="BS">
+
+            <input type="button" class="btn" id="btt" value="4">
+
+            <input type="button" class="btn" id="btt" value="5">
+
+            <input type="button" class="btn" id="btt" value="6">
+
+            <input type="button" class="btn" id="btt" value="-">
+
+            <input type="button" class="btn" id="btt" value="C">
+
+            <input type="button" class="btn" id="btt" value="1">
+
+            <input type="button" class="btn" id="btt" value="2">
+
+            <input type="button" class="btn" id="btt" value="3">
+
+            <input type="button" class="btn" id="btt" value="/">
+            
+            <input type="button" class="btn igual" id="btt" value="=">
+            
+            <input type="button" class="btn zero" id="btt" value="0">
+
+            <input type="button" class="btn" id="btt" value=".">
+            
+            <input type="button" class="btn" id="btt" value="*">
+        </section>
+    </div>
 </body>
 <footer>
 
