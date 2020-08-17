@@ -11,48 +11,48 @@
 <body>
     <div class="container">
         <header class="top">
-            <form class="form">
-                <input type="text" id="result" class="campo">
+            <form class="form" name="calc">
+                <input type="text" id="result" class="campo" name="visor">
             </form>
         </header>
 
         <section class="body">
 
-            <input type="button" class="btn" id="btt" value="7">
+            <input type="button" class="btn" id="btt" value="7" onclick="botao(value)" >
 
-            <input type="button" class="btn" id="btt" value="8">
+            <input type="button" class="btn" id="btt" value="8" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="9">
+            <input type="button" class="btn" id="btt" value="9" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="+">
+            <input type="button" class="btn" id="btt" value="+" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="BS">
+            <input type="button" class="btn" id="btt" value="BS" onclick="back_space()">
 
-            <input type="button" class="btn" id="btt" value="4">
+            <input type="button" class="btn" id="btt" value="4" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="5">
+            <input type="button" class="btn" id="btt" value="5" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="6">
+            <input type="button" class="btn" id="btt" value="6" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="-">
+            <input type="button" class="btn" id="btt" value="-" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="C">
+            <input type="button" class="btn" id="btt" value="C" onclick="limpa_tela()">
 
-            <input type="button" class="btn" id="btt" value="1">
+            <input type="button" class="btn" id="btt" value="1" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="2">
+            <input type="button" class="btn" id="btt" value="2" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="3">
+            <input type="button" class="btn" id="btt" value="3" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value="/">
+            <input type="button" class="btn" id="btt" value="/" onclick="botao(value)">
             
-            <input type="button" class="btn igual" id="btt" value="=">
+            <input type="button" class="btn igual" id="btt" value="=" onclick="calcula()">
             
-            <input type="button" class="btn zero" id="btt" value="0">
+            <input type="button" class="btn zero" id="btt" value="0" onclick="botao(value)">
 
-            <input type="button" class="btn" id="btt" value=".">
+            <input type="button" class="btn" id="btt" value="." onclick="botao(value)"> 
             
-            <input type="button" class="btn" id="btt" value="*">
+            <input type="button" class="btn" id="btt" value="*" onclick="botao(value)">
         </section>
     </div>
 </body>
